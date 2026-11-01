@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", system-ui, sans-serif;
+  --color-brand-50: #fbf6f1;
+  --color-brand-100: #f3e7da;
+  --color-brand-500: #a0613a;
+  --color-brand-600: #8a4f2c;
+  --color-brand-700: #6d3d22;
+  --color-brand-900: #2b1a10;
+}
+
+body {
+  @apply bg-stone-50 text-stone-800 antialiased;
+}
